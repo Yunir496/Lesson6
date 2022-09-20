@@ -5,7 +5,7 @@ import java.util.*;
  */
 public class Lesson6next3 {
     public static void main(String[] args) {
-         int []massiv = {1,5,2,6,3,7};
+         int []massiv = {1 ,3 ,2 ,4, 5, 7, 6, 8,};
          boolean flazhok = false;
          int tmp;
          while (!flazhok){

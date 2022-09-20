@@ -9,8 +9,8 @@ public class Lesson6next2 {
         for(i=-n+1;i<n;i++){
             for(j=-n+1;j<n;j++){
                 if(Math.abs(j)+1>=n-Math.abs(i))
-                    System.out.print((char)(64+(n-Math.abs(j)))+" ");
-                else System.out.print(" ");
+                    System.out.print((char)(64+(n-Math.abs(j)))+" "+"\t");
+                else System.out.print(" "+"\t");
             }
             System.out.println("");
         }
